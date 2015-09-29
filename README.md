@@ -1,47 +1,45 @@
-# Lin
+#Lin
+---
+Develop based on [Lin](https://github.com/questbeat/Lin) and [extract-localizable-string-plugin-xcode](https://github.com/viniciusmo/extract-localizable-string-plugin-xcode). It not only can extract localizable string but also provides auto-completion for localized key.
 
-Lin is a Xcode plugin that provides auto-completion for `NSLocalizedString`.  
-Both Objective-C and Swift are supported.
+#Install
+**Support Xcode 7.1 Beta**
 
-[![Build Status](https://travis-ci.org/questbeat/Lin.svg?branch=master)](https://travis-ci.org/questbeat/Lin)
+```
+Option 1: run install_plugin.sh, and restart XCode;
+Option 2: copy Lin.xcplugin to "~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/"
+```
+#Uninstall
+```
+Delete Lin.xcplugin at "~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/"
+```
+----
+#Menu
+<img src="./res/0_locolize_menu.png" width=650 height=150/>
 
-![Screenshot](https://raw.github.com/questbeat/Lin/master/screenshot.gif)
+#Add
+### Shortcut key: Shift + Option + U
+<br/>
+<img src="./res/1_localize_add.gif" width=650 height=300/>
+
+#Change
+### Shortcut key: Shift + Option + U
+<br/>
+<img src="./res/2_localize_change_value.gif" width=650 height=300/>
+
+#Auto Complete Search
+<img src="./res/3_localize_word_complete.gif" width=650 height=300/>
+
+#Delete
+### Shortcut key: Shift + Option + D (delete in mm.strings also)
+<br/>
+<img src="./res/4_localize_delete.gif" width=650 height=300/>
 
 
-## Installation
+###References:
 
-Download the project and build it, and then relaunch Xcode.  
-Lin will be installed in `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins` automatically.
+[Lin](https://github.com/questbeat/Lin)
 
-If you want to uninstall Lin, remove Lin.xcplugin in the `Plug-ins` directory.
-
-
-## Notes
-
-* Xcode 6 or later is supported
-* Supported functions
-  * NSLocalizedString
-  * NSLocalizedStringFromTable
-  * NSLocalizedStringFromTableInBundle
-  * NSLocalizedStringWithDefaultValue
+[extract-localizable-string-plugin-xcode](https://github.com/viniciusmo/extract-localizable-string-plugin-xcode)
 
 
-## Troubleshooting
-
-### I installed Lin by using Alcatraz, and it doesn't work.
-
-1. Remove all cached data of Alcatraz: `rm -rf ~/Library/Application\ Support/Alcatraz`
-2. Reinstall Lin and restart Xcode.
-
-
-## License
-
-Lin is released under the **MIT License**.
-
-> Copyright (c) 2014 Katsuma Tanaka
->
-> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
->
-> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
->
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
