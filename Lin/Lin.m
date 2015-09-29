@@ -16,6 +16,9 @@
 #import "LINLocalization.h"
 #import "LINTextCompletionItem.h"
 
+// ExtractLocalization
+#import "ExtractLocalization.h"
+
 static id _sharedInstance = nil;
 
 @interface Lin ()
@@ -58,11 +61,36 @@ static id _sharedInstance = nil;
         NSOperationQueue *indexingQueue = [NSOperationQueue new];
         indexingQueue.maxConcurrentOperationCount = 1;
         self.indexingQueue = indexingQueue;
+        
+        // Create ExtractLocalization Menu
+        [self addMenu];
+        [[NSNotificationCenter defaultCenter] addObserver: self
+                                                 selector: @selector(menuDidChange:)
+                                                     name: NSMenuDidChangeItemNotification
+                                                   object: nil];
     }
     
     return self;
 }
 
+- (void)addMenu
+{
+    [[ExtractLocalization sharedInstance] createMenuExtractLocalization];
+}
+
+
+- (void) menuDidChange: (NSNotification *) notification {
+    [[NSNotificationCenter defaultCenter] removeObserver: self
+                                                    name: NSMenuDidChangeItemNotification
+                                                  object: nil];
+    
+    [self addMenu];
+    
+    [[NSNotificationCenter defaultCenter] addObserver: self
+                                             selector: @selector(menuDidChange:)
+                                                 name: NSMenuDidChangeItemNotification
+                                               object: nil];
+}
 
 #pragma mark - Indexing Localizations
 
@@ -89,6 +117,13 @@ static id _sharedInstance = nil;
         
         for (DVTFilePath *filePath in indexCollection) {
             if ([weakOperation isCancelled]) return;
+            
+            NSArray *pathComponents = [filePath pathComponents];
+            NSString *languageDesignation = [[pathComponents objectAtIndex:pathComponents.count - 2] stringByDeletingPathExtension];
+            // Process only zh_CN
+            if (![languageDesignation isEqualTo:@"zh_CN"]) {
+                continue;
+            }
             
             NSArray *parsedLocalizations = [self.parser localizationsFromContentsOfFile:filePath.pathString];
             

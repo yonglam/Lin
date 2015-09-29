@@ -17,9 +17,8 @@ typedef NS_ENUM(NSUInteger, LINSourceCodeLanguage) {
 
 @property (nonatomic, copy, readonly) NSArray *localizations;
 @property (nonatomic, assign) LINSourceCodeLanguage sourceCodeLanguage;
+@property (nonatomic, strong) NSString *key;
 
 - (instancetype)initWithLocalizations:(NSArray *)localizations;
-
-- (NSString *)key;
 
 @end

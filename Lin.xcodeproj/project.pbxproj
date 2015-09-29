@@ -27,6 +27,18 @@
 		AAB6049D1A839A0C00C0E59B /* LINLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604971A8393F700C0E59B /* LINLocalization.m */; };
 		AAB604A51A83C3B900C0E59B /* LINLocalizationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604A41A83C3B900C0E59B /* LINLocalizationParser.m */; };
 		AAB604AB1A83CBD400C0E59B /* LINLocalizationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB604A41A83C3B900C0E59B /* LINLocalizationParser.m */; };
+		EE11AC381B0585A5008D2F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE11AC301B0585A5008D2F98 /* InfoPlist.strings */; };
+		EE11AC391B0585A5008D2F98 /* mm.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE11AC321B0585A5008D2F98 /* mm.strings */; };
+		EE11AC3A1B0585A5008D2F98 /* network_setting.html in Resources */ = {isa = PBXBuildFile; fileRef = EE11AC341B0585A5008D2F98 /* network_setting.html */; };
+		EE11AC3B1B0585A5008D2F98 /* TipsPressTalk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11AC361B0585A5008D2F98 /* TipsPressTalk@2x.png */; };
+		EE4165C71B097E1F009E8AED /* ExtractLocalizationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4165B41B097E1F009E8AED /* ExtractLocalizationWindowController.m */; };
+		EE4165C81B097E1F009E8AED /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4165B71B097E1F009E8AED /* FileHelper.m */; };
+		EE4165C91B097E1F009E8AED /* LinLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4165BA1B097E1F009E8AED /* LinLogger.m */; };
+		EE4165CA1B097E1F009E8AED /* ExtractLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4165BD1B097E1F009E8AED /* ExtractLocalization.m */; };
+		EE4165CB1B097E1F009E8AED /* ExtractLocalizationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4165BF1B097E1F009E8AED /* ExtractLocalizationWindowController.xib */; };
+		EE4165CC1B097E1F009E8AED /* EditorLocalizable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4165C21B097E1F009E8AED /* EditorLocalizable.m */; };
+		EE4165CD1B097E1F009E8AED /* ItemLocalizable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4165C41B097E1F009E8AED /* ItemLocalizable.m */; };
+		EE4165CE1B097E1F009E8AED /* RCXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4165C61B097E1F009E8AED /* RCXcode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +89,25 @@
 		AAB604A41A83C3B900C0E59B /* LINLocalizationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINLocalizationParser.m; sourceTree = "<group>"; };
 		AAB604AC1A83D3B900C0E59B /* DVTTextStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextStorage.h; sourceTree = "<group>"; };
 		AAC2027C1A868C730010FDF7 /* Xcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xcode.h; sourceTree = "<group>"; };
+		EE11AC311B0585A5008D2F98 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = InfoPlist.strings; sourceTree = "<group>"; };
+		EE11AC331B0585A5008D2F98 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = mm.strings; sourceTree = "<group>"; };
+		EE11AC351B0585A5008D2F98 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = zh_CN; path = network_setting.html; sourceTree = "<group>"; };
+		EE11AC371B0585A5008D2F98 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zh_CN; path = "TipsPressTalk@2x.png"; sourceTree = "<group>"; };
+		EE4165B31B097E1F009E8AED /* ExtractLocalizationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractLocalizationWindowController.h; sourceTree = "<group>"; };
+		EE4165B41B097E1F009E8AED /* ExtractLocalizationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractLocalizationWindowController.m; sourceTree = "<group>"; };
+		EE4165B61B097E1F009E8AED /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		EE4165B71B097E1F009E8AED /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		EE4165B91B097E1F009E8AED /* LinLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinLogger.h; sourceTree = "<group>"; };
+		EE4165BA1B097E1F009E8AED /* LinLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinLogger.m; sourceTree = "<group>"; };
+		EE4165BC1B097E1F009E8AED /* ExtractLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractLocalization.h; sourceTree = "<group>"; };
+		EE4165BD1B097E1F009E8AED /* ExtractLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractLocalization.m; sourceTree = "<group>"; };
+		EE4165BF1B097E1F009E8AED /* ExtractLocalizationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtractLocalizationWindowController.xib; sourceTree = "<group>"; };
+		EE4165C11B097E1F009E8AED /* EditorLocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorLocalizable.h; sourceTree = "<group>"; };
+		EE4165C21B097E1F009E8AED /* EditorLocalizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorLocalizable.m; sourceTree = "<group>"; };
+		EE4165C31B097E1F009E8AED /* ItemLocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemLocalizable.h; sourceTree = "<group>"; };
+		EE4165C41B097E1F009E8AED /* ItemLocalizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemLocalizable.m; sourceTree = "<group>"; };
+		EE4165C51B097E1F009E8AED /* RCXcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCXcode.h; sourceTree = "<group>"; };
+		EE4165C61B097E1F009E8AED /* RCXcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCXcode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +138,7 @@
 			children = (
 				AAB604941A8393B800C0E59B /* LINLocalizationParserTests.m */,
 				AAB604921A83933F00C0E59B /* Localizations.strings */,
+				EE11AC2F1B0585A5008D2F98 /* zh_CN.lproj */,
 				AA023C141A82A2E700D4AE5F /* Supporting Files */,
 			);
 			path = LinTests;
@@ -186,6 +218,7 @@
 		AA80F33D1A82804C007687A3 /* Lin */ = {
 			isa = PBXGroup;
 			children = (
+				EE4165B11B097E1F009E8AED /* ExtractLocalization */,
 				AA1DB1151A828CC100856B10 /* Xcode */,
 				AA1DB1141A828CBA00856B10 /* Categories */,
 				AAB6049E1A839BC500C0E59B /* Models */,
@@ -251,6 +284,87 @@
 			name = IDEFoundation;
 			sourceTree = "<group>";
 		};
+		EE11AC2F1B0585A5008D2F98 /* zh_CN.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EE11AC301B0585A5008D2F98 /* InfoPlist.strings */,
+				EE11AC321B0585A5008D2F98 /* mm.strings */,
+				EE11AC341B0585A5008D2F98 /* network_setting.html */,
+				EE11AC361B0585A5008D2F98 /* TipsPressTalk@2x.png */,
+			);
+			path = zh_CN.lproj;
+			sourceTree = "<group>";
+		};
+		EE4165B11B097E1F009E8AED /* ExtractLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				EE4165B21B097E1F009E8AED /* Controllers */,
+				EE4165B51B097E1F009E8AED /* File */,
+				EE4165B81B097E1F009E8AED /* Logger */,
+				EE4165BB1B097E1F009E8AED /* Principal Class */,
+				EE4165BE1B097E1F009E8AED /* Views */,
+				EE4165C01B097E1F009E8AED /* Xcode */,
+			);
+			path = ExtractLocalization;
+			sourceTree = "<group>";
+		};
+		EE4165B21B097E1F009E8AED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE4165B31B097E1F009E8AED /* ExtractLocalizationWindowController.h */,
+				EE4165B41B097E1F009E8AED /* ExtractLocalizationWindowController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE4165B51B097E1F009E8AED /* File */ = {
+			isa = PBXGroup;
+			children = (
+				EE4165B61B097E1F009E8AED /* FileHelper.h */,
+				EE4165B71B097E1F009E8AED /* FileHelper.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		EE4165B81B097E1F009E8AED /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				EE4165B91B097E1F009E8AED /* LinLogger.h */,
+				EE4165BA1B097E1F009E8AED /* LinLogger.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		EE4165BB1B097E1F009E8AED /* Principal Class */ = {
+			isa = PBXGroup;
+			children = (
+				EE4165BC1B097E1F009E8AED /* ExtractLocalization.h */,
+				EE4165BD1B097E1F009E8AED /* ExtractLocalization.m */,
+			);
+			path = "Principal Class";
+			sourceTree = "<group>";
+		};
+		EE4165BE1B097E1F009E8AED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE4165BF1B097E1F009E8AED /* ExtractLocalizationWindowController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE4165C01B097E1F009E8AED /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				EE4165C11B097E1F009E8AED /* EditorLocalizable.h */,
+				EE4165C21B097E1F009E8AED /* EditorLocalizable.m */,
+				EE4165C31B097E1F009E8AED /* ItemLocalizable.h */,
+				EE4165C41B097E1F009E8AED /* ItemLocalizable.m */,
+				EE4165C51B097E1F009E8AED /* RCXcode.h */,
+				EE4165C61B097E1F009E8AED /* RCXcode.m */,
+			);
+			path = Xcode;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -311,6 +425,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				zh_CN,
 			);
 			mainGroup = AA80F3321A82804C007687A3;
 			productRefGroup = AA80F33C1A82804C007687A3 /* Products */;
@@ -329,6 +444,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB604931A83933F00C0E59B /* Localizations.strings in Resources */,
+				EE11AC381B0585A5008D2F98 /* InfoPlist.strings in Resources */,
+				EE11AC3A1B0585A5008D2F98 /* network_setting.html in Resources */,
+				EE11AC391B0585A5008D2F98 /* mm.strings in Resources */,
+				EE11AC3B1B0585A5008D2F98 /* TipsPressTalk@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4165CB1B097E1F009E8AED /* ExtractLocalizationWindowController.xib in Resources */,
 				AA49B19C1A829B02003EA1A3 /* Completions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,19 +478,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB604981A8393F700C0E59B /* LINLocalization.m in Sources */,
+				EE4165C71B097E1F009E8AED /* ExtractLocalizationWindowController.m in Sources */,
 				AA89B4FD1A872ED600E8CCD6 /* DVTTextCompletionDataSource+Lin.m in Sources */,
 				AAB604A51A83C3B900C0E59B /* LINLocalizationParser.m in Sources */,
+				EE4165C91B097E1F009E8AED /* LinLogger.m in Sources */,
 				AA4A0AA81A874D20005109B0 /* DVTSourceCodeLanguage+Lin.m in Sources */,
+				EE4165CA1B097E1F009E8AED /* ExtractLocalization.m in Sources */,
 				AA49B1961A8295F6003EA1A3 /* IDEWorkspace+Lin.m in Sources */,
 				AA1DB1221A828FBF00856B10 /* LINTextCompletionItem.m in Sources */,
 				AA1313AA1A8289360080D488 /* DVTSourceTextView+Lin.m in Sources */,
 				AA1DB1181A828CD500856B10 /* DVTTextCompletionController+Lin.m in Sources */,
 				AA80F3471A82805B007687A3 /* Lin.m in Sources */,
+				EE4165CC1B097E1F009E8AED /* EditorLocalizable.m in Sources */,
+				EE4165CD1B097E1F009E8AED /* ItemLocalizable.m in Sources */,
 				AA1313A31A82884B0080D488 /* MethodSwizzle.m in Sources */,
+				EE4165CE1B097E1F009E8AED /* RCXcode.m in Sources */,
+				EE4165C81B097E1F009E8AED /* FileHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE11AC301B0585A5008D2F98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE11AC311B0585A5008D2F98 /* zh_CN */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE11AC321B0585A5008D2F98 /* mm.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE11AC331B0585A5008D2F98 /* zh_CN */,
+			);
+			name = mm.strings;
+			sourceTree = "<group>";
+		};
+		EE11AC341B0585A5008D2F98 /* network_setting.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE11AC351B0585A5008D2F98 /* zh_CN */,
+			);
+			name = network_setting.html;
+			sourceTree = "<group>";
+		};
+		EE11AC361B0585A5008D2F98 /* TipsPressTalk@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE11AC371B0585A5008D2F98 /* zh_CN */,
+			);
+			name = "TipsPressTalk@2x.png";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AA023C191A82A2E700D4AE5F /* Debug */ = {

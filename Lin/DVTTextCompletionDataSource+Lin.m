@@ -33,7 +33,7 @@
         IDEWorkspace *workspace = [arg2 objectForKey:@"IDETextCompletionContextWorkspaceKey"];
         NSArray *items = [[Lin sharedInstance] completionItemsForWorkspace:workspace];
         
-        LINSourceCodeLanguage sourceCodeLanguage = [language lin_isObjectiveC] ? LINSourceCodeLanguageObjectiveC : LINSourceCodeLanguageSwift;
+        LINSourceCodeLanguage sourceCodeLanguage = [language lin_isSwift] ? LINSourceCodeLanguageSwift : LINSourceCodeLanguageObjectiveC;
         for (LINTextCompletionItem *item in items) {
             item.sourceCodeLanguage = sourceCodeLanguage;
         }

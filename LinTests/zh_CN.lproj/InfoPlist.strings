@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "微信";
+"NSContactsUsageDescription" = "现在微信将访问你的通讯录，仅使用特征码用于匹配识别，不会保存你的通讯录内容。";
+"NSLocationUsageDescription" = "请点击“好”以允许访问。\n\n若不允许，你将无法在微信中使用摇一摇、附近的人等功能，也无法发送地理位置。";
+"NSPhotoLibraryUsageDescription" = "请点击“好”以允许访问。\n\n若不允许，你将无法在微信中给好友发送照片、保存照片，也无法在朋友圈中发表照片。";
+"NSLocationWhenInUseUsageDescription" = "请点击“允许”以允许访问。\n\n若不允许，你将无法在微信中使用摇一摇、附近的人等功能，也无法发送地理位置。";
+"NSLocationAlwaysUsageDescription" = "请点击“允许”，微信需要在 Apple Watch 上用到此权限。";
